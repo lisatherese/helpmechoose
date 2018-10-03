@@ -20,9 +20,22 @@
         <div class="inputs">
           <input placeholder="Vacation Spot"></input>
         </div>
-        <button class="add">Add option</button>
+        <button class="addOption">Add option</button>
       </div>
+      <div class="resultSection"></div>
       <button>Help me choose!</button>
 
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
+<script>
+$(function() {
+  $('.resultSection').hide()
+
+  var add_option = function(){
+    $('.inputs').append('<input></input>')
+  }
+
+  $('.addOption').click(add_option)
+})
+</script>
   </body>
 </html>
