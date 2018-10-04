@@ -62,3 +62,12 @@ font-size: 15px
 .image{
   padding: 20px 15px 15px 15px;
 }
+
+.resultSection {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-family: 'Abril Fatface', cursive;
+}
